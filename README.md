@@ -30,7 +30,7 @@ This school project demonstrates an end-to-end machine learning pipeline from da
 | `tebal_kulit` | Skin thickness (cm) | Numerical |
 | `kadar_gula` | Sugar content (%) | Numerical |
 | `asal_daerah` | Origin region | Categorical |
-| `warna` | Skin color | Categorical |
+| `warna` | Skin color | Ordinal |
 | `musim_panen` | Harvest season | Categorical |
 | `kualitas` | Quality label (Target) | Categorical |
 
@@ -124,7 +124,7 @@ The Streamlit app provides an intuitive interface for quality prediction:
 ```
 citrus-quality-classification/
 │
-├── app_jeruk.py                 # Streamlit web application
+├── app_streamlit.py                 # Streamlit web application
 ├── model_klasifikasi_jeruk.joblib # Trained model file
 ├── jeruk_balance_500.csv        # Dataset
 ├── requirements.txt             # Dependencies
@@ -164,8 +164,8 @@ The model identifies key factors affecting orange quality:
 
 ## 👥 Contributors
 
-- **Your Name** - [GitHub Profile](https://github.com/yourusername)
-- School: [Your School Name]
+- **Your Name** - [GitHub Profile](https://github.com/VortechLabs)
+- School: [SMKN 1 Purbalingga](https://smkn1purbalingga.sch.id)
 - Course: Machine Learning
 
 ## 📄 License
@@ -187,9 +187,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### 📞 Contact
 
 For questions or collaborations, feel free to reach out:
-- Email: your.email@example.com
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Portfolio: [Your Website](https://yourwebsite.com)
+- Email: ibraramadanialzaki2@gmail.com
+- LinkedIn: [Your Profile](https://linkedin.com/in/al-zaki-ibra-ramadani-775821313)
+- Portfolio: [Your Website](https://likeibra.netlify.app)
 
 ---
 
